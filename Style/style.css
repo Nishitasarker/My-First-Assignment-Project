@@ -275,3 +275,43 @@ color:rgba(98, 115, 130, 1);
     background-color: #04f067;
 }
 
+
+.foot{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 120px 120px 5px 120px;
+    background-color: rgba(0, 25, 49, 1);
+    margin-bottom: 30px;
+}
+
+.foot p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon img{
+background-color: #FFFFFF;
+width:20px ;
+height: 20px;
+border-radius: 10px;
+}
+
+.copy{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
