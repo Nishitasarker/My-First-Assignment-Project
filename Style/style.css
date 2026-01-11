@@ -313,6 +313,8 @@ border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid #627382;
+    margin-top: 20px;
 }
 
 .fail{
@@ -326,3 +328,5 @@ border-radius: 15px;
     justify-content: space-between;
     align-items: center;
 }
+
+
