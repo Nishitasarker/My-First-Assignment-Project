@@ -282,21 +282,31 @@ color:rgba(98, 115, 130, 1);
     align-items: center; */
     padding: 120px 120px 5px 120px;
     background-color: rgba(0, 25, 49, 1);
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
-.foot p{
+.icon p{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.icon{
+    gap:20px ;
 }
 
 .icon img{
 background-color: #FFFFFF;
-width:20px ;
-height: 20px;
-border-radius: 10px;
+/* justify-content: space-between;
+gap: 4px; */
+width:25px ;
+height: 25px;
+gap: 10px;
+border-radius: 15px;
 }
+
+
 
 .copy{
     color: #FFFFFF;
@@ -314,4 +324,5 @@ border-radius: 10px;
 .footer-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
