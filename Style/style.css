@@ -174,3 +174,104 @@
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
+
+.bold{
+    font-size: 20px;
+    font-style: semi-bold;
+    font-weight: 600;
+}
+
+
+.small{
+    color:var(--#627382, rgba(98, 115, 130, 1));
+    font-size: 9px;
+    font-style: regular;
+    font-weight: 400;
+
+}
+
+.card img{
+    background-color:rgba(249, 85, 85, 1) ;
+border-radius: 25px;
+padding: 7px;
+}
+
+
+.jui img{
+    background-color:#dde0e1;
+    size: 50%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+.Nishita {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    padding: 120px;
+}
+
+
+.font p{
+    font-size: 13px;
+    color: #30B868;
+}
+
+.font p2{
+
+color:rgba(98, 115, 130, 1);
+ font-size: 16px;
+}
+
+.font h2{
+   color:rgba(0, 25, 49, 1);
+
+    font-style:bold;
+} 
+
+.list-item ul{
+    font-size: 16px;
+    color: rgba(0, 25, 49, 1);
+}
+
+.list-item ul{
+   list-style: url(../assets/CheckCircle.png);
+}
+
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+    margin:2px 120px;
+    border: 12px;
+    padding: 80px 40px;
+    max-width: 1360px;
+    max-height: 384px;
+
+}
+
+.bonus p{
+    color:rgba(98, 115, 130, 1);
+    font-size: 16px;
+}
+
+.bonus button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    gap: 10px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: 1px solid #30B868;
+}
+
+.bonus button:hover{
+    background-color: #04f067;
+}
+
